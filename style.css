@@ -1,0 +1,89 @@
+body {
+    background-image: url('bgImage2.webp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: none;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}   
+.navContainer{
+    height: 80px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: none;   
+}
+nav{
+    width: 100vw;
+} 
+#navlist{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 75px;
+    
+}
+#navAnchor{  
+    padding-right: 100px;
+    display: flex;
+    gap: 100px;
+}
+a{
+    font-size: 1.5rem ;
+    text-decoration: none;
+}
+.contentBox{
+    width: 70%;
+    margin: auto;
+
+    height: 400px;
+    
+}
+.Item{
+    display: flex;
+    justify-content: center;
+    
+}
+.leftBox{
+    padding: 15px;
+    padding-top: 50px;
+    
+}
+.rightBox{
+    padding: 15px;
+    padding-top: 50px;
+}
+#url{
+    width: 800px;
+    height: 50px;
+    padding-left: 30px;
+    border-radius: 7px;
+    font-size: large;
+    
+}
+#btn{
+    width: 125px;
+    height: 50px;
+    
+    border-radius: 7px;
+    font-size: large;
+    
+}
+#heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    font-size: 2rem;
+    
+}
